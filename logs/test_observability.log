@@ -1,0 +1,43 @@
+2025-06-29 04:22:59 [System] INFO [log_system_info:247]: Quantum Computing Platform starting up
+2025-06-29 04:22:59 [System] INFO [log_system_info:248]: Log level: DEBUG
+2025-06-29 04:22:59 [System] INFO [log_system_info:249]: Logging to file: True
+2025-06-29 04:22:59 [System] INFO [log_system_info:251]: Log file: logs/test_observability.log
+2025-06-29 04:22:59 [System] INFO [log_system_info:252]: Performance logging: True
+2025-06-29 04:22:59 [TestCompiler] DEBUG [test_basic_logging_system:56]: This is a debug message from compiler
+2025-06-29 04:22:59 [TestCompiler] INFO [test_basic_logging_system:57]: Compiler is processing quantum circuit
+2025-06-29 04:22:59 [TestCompiler] WARNING [test_basic_logging_system:58]: Potential optimization opportunity detected
+2025-06-29 04:22:59 [TestSimulator] INFO [test_basic_logging_system:60]: Starting quantum simulation
+2025-06-29 04:22:59 [TestSimulator] ERROR [test_basic_logging_system:61]: Simulation failed due to resource constraints
+2025-06-29 04:22:59 [TestSecurity] INFO [test_basic_logging_system:63]: User authentication successful
+2025-06-29 04:22:59 [TestSecurity] WARNING [test_basic_logging_system:64]: Multiple login attempts detected
+2025-06-29 04:22:59 [TestComponent] DEBUG [performance_context:194]: Starting test_operation
+2025-06-29 04:22:59 [TestCompiler] INFO [test_basic_logging_system:71]: Operation completed successfully
+2025-06-29 04:22:59 [TestComponent] DEBUG [performance_context:207]: Completed test_operation in 0.105s
+2025-06-29 04:22:59 [TestSecurity] INFO [test_basic_logging_system:77]: User performed sensitive operation
+2025-06-29 04:22:59 [TestSimulator] INFO [test_basic_logging_system:78]: Running simulation for user
+2025-06-29 04:22:59 [Monitor] INFO [start_continuous_monitoring:137]: Started continuous monitoring with 5.0s interval
+2025-06-29 04:22:59 [Monitor] DEBUG [measure_operation:224]: Started measuring test_computation in TestComponent
+2025-06-29 04:22:59 [Monitor] DEBUG [measure_operation:244]: Completed test_computation in 0.052s
+2025-06-29 04:22:59 [Monitor] DEBUG [measure_operation:224]: Started measuring decorated_function in TestDecorator
+2025-06-29 04:22:59 [TestDecorator] INFO [example_decorated_function:126]: Processing 1000 items
+2025-06-29 04:22:59 [TestDecorator] INFO [example_decorated_function:133]: Completed processing, result: 332833500
+2025-06-29 04:22:59 [Monitor] DEBUG [measure_operation:244]: Completed decorated_function in 0.000s
+2025-06-29 04:22:59 [TestClass] DEBUG [wrapper:177]: Calling TestClass
+2025-06-29 04:22:59 [Monitor] DEBUG [measure_operation:224]: Started measuring TestClass in TestClass
+2025-06-29 04:22:59 [Monitor] DEBUG [measure_operation:244]: Completed TestClass in 0.000s
+2025-06-29 04:22:59 [TestClass] DEBUG [wrapper:193]: Completed TestClass
+2025-06-29 04:22:59 [TestProcessor] INFO [__init__:166]: Initialized processor: test_proc_1
+2025-06-29 04:22:59 [Monitor] DEBUG [measure_operation:224]: Started measuring process_task in TestProcessor
+2025-06-29 04:22:59 [Debug] DEBUG [operation_context:106]: Started debugging process_task in TestProcessor
+2025-06-29 04:22:59 [TestProcessor] INFO [log_operation_start:57]: Starting process_task (operation #1)
+2025-06-29 04:22:59 [TestProcessor] INFO [process_task:170]: Processing task: {'id': 'task_1', 'data': 'test_data'}
+2025-06-29 04:22:59 [TestProcessor] INFO [log_operation_success:64]: Successfully completed process_task
+2025-06-29 04:22:59 [Debug] DEBUG [operation_context:121]: Successfully completed debugging process_task in 0.025s
+2025-06-29 04:22:59 [Monitor] DEBUG [measure_operation:244]: Completed process_task in 0.025s
+2025-06-29 04:22:59 [Monitor] DEBUG [measure_operation:224]: Started measuring process_task in TestProcessor
+2025-06-29 04:22:59 [Debug] DEBUG [operation_context:106]: Started debugging process_task in TestProcessor
+2025-06-29 04:22:59 [TestProcessor] INFO [log_operation_start:57]: Starting process_task (operation #2)
+2025-06-29 04:22:59 [TestProcessor] INFO [process_task:170]: Processing task: {'id': 'task_2', 'should_fail': True}
+2025-06-29 04:23:00 [TestProcessor] ERROR [log_operation_error:71]: Failed process_task: Simulated processing error
+2025-06-29 04:23:00 [Debug] ERROR [operation_context:136]: Error in debugging process_task after 0.022s: Simulated processing error
+2025-06-29 04:23:00 [Monitor] ERROR [measure_operation:263]: Failed process_task after 0.026s: Simulated processing error

@@ -1,0 +1,242 @@
+@tailwindcss/base;
+@tailwindcss/components;
+@tailwindcss/utilities;
+
+/* Global styles for the Quantum Platform */
+
+:root {
+  --quantum-primary: #0ea5e9;
+  --quantum-primary-dark: #0284c7;
+  --quantum-secondary: #8b5cf6;
+  --quantum-accent: #06b6d4;
+  --quantum-success: #10b981;
+  --quantum-warning: #f59e0b;
+  --quantum-error: #ef4444;
+  --quantum-bg: #ffffff;
+  --quantum-surface: #f8fafc;
+  --quantum-text: #1e293b;
+  --quantum-text-muted: #64748b;
+}
+
+[data-theme="dark"] {
+  --quantum-bg: #0f172a;
+  --quantum-surface: #1e293b;
+  --quantum-text: #f1f5f9;
+  --quantum-text-muted: #94a3b8;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--quantum-bg);
+  color: var(--quantum-text);
+}
+
+body {
+  font-feature-settings: 'rlig' 1, 'calt' 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--quantum-surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--quantum-text-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--quantum-primary);
+}
+
+/* Quantum-specific components */
+.quantum-glow {
+  box-shadow: 0 0 20px rgba(14, 165, 233, 0.3);
+}
+
+.quantum-pulse {
+  animation: quantum-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes quantum-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* Circuit visualization styles */
+.circuit-node {
+  transition: all 0.2s ease-in-out;
+}
+
+.circuit-node:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+.circuit-connection {
+  stroke: var(--quantum-primary);
+  stroke-width: 2;
+  transition: stroke-width 0.2s ease-in-out;
+}
+
+.circuit-connection:hover {
+  stroke-width: 3;
+}
+
+/* Error notification styles */
+.error-toast {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  color: white;
+  border-radius: 8px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+}
+
+.success-toast {
+  background: linear-gradient(135deg, #059669, #047857);
+  color: white;
+  border-radius: 8px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+}
+
+.warning-toast {
+  background: linear-gradient(135deg, #d97706, #b45309);
+  color: white;
+  border-radius: 8px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.3);
+}
+
+/* Monaco Editor customizations */
+.monaco-editor {
+  border-radius: 8px;
+}
+
+/* Loading animations */
+.quantum-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--quantum-surface);
+  border-top: 4px solid var(--quantum-primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Form styles */
+.quantum-input {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-quantum-500 focus:border-quantum-500;
+}
+
+.quantum-button {
+  @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-quantum-600 hover:bg-quantum-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-quantum-500 transition-colors duration-200;
+}
+
+.quantum-button-secondary {
+  @apply inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md shadow-sm text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-quantum-500 transition-colors duration-200;
+}
+
+/* Card styles */
+.quantum-card {
+  @apply bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200;
+}
+
+.quantum-card-dark {
+  @apply bg-gray-800 rounded-lg border border-gray-700 shadow-sm hover:shadow-md transition-shadow duration-200;
+}
+
+/* Alert styles */
+.alert-error {
+  @apply bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-md;
+}
+
+.alert-warning {
+  @apply bg-yellow-50 border border-yellow-200 text-yellow-800 px-4 py-3 rounded-md;
+}
+
+.alert-success {
+  @apply bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-md;
+}
+
+.alert-info {
+  @apply bg-blue-50 border border-blue-200 text-blue-800 px-4 py-3 rounded-md;
+}
+
+/* Responsive design utilities */
+@media (max-width: 640px) {
+  .quantum-responsive-text {
+    font-size: 0.875rem;
+  }
+  
+  .quantum-responsive-padding {
+    padding: 1rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-only {
+    display: block !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .quantum-button {
+    border: 2px solid;
+  }
+  
+  .quantum-card {
+    border-width: 2px;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus styles for accessibility */
+.focus-quantum:focus {
+  outline: 2px solid var(--quantum-primary);
+  outline-offset: 2px;
+}
+
+/* Text selection styles */
+::selection {
+  background-color: rgba(14, 165, 233, 0.3);
+  color: var(--quantum-text);
+} 
