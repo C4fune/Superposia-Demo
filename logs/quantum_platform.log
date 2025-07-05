@@ -262,3 +262,329 @@
 2025-06-29 04:45:30 [quantum_platform.errors.reporter] INFO: Error report collected: QP-20250629-848b49fa
 2025-06-29 04:45:30 [quantum_platform.errors.alerts] INFO: Alert created: b4ca2ce8-fd28-4913-9f10-883113957eef - Logic Error
 2025-06-29 04:45:32 [quantum_platform.errors.alerts] INFO: Alert manager shutdown
+2025-06-29 05:59:26 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 05:59:26 [System] INFO: Log level: INFO
+2025-06-29 05:59:26 [System] INFO: Logging to file: True
+2025-06-29 05:59:26 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 05:59:26 [System] INFO: Performance logging: False
+2025-06-29 05:59:26 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:00:28 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:00:28 [System] INFO: Log level: INFO
+2025-06-29 06:00:28 [System] INFO: Logging to file: True
+2025-06-29 06:00:28 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:00:28 [System] INFO: Performance logging: False
+2025-06-29 06:00:28 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:00:35 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:00:35 [System] INFO: Log level: INFO
+2025-06-29 06:00:35 [System] INFO: Logging to file: True
+2025-06-29 06:00:35 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:00:35 [System] INFO: Performance logging: False
+2025-06-29 06:00:35 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:01:18 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:01:18 [System] INFO: Log level: INFO
+2025-06-29 06:01:18 [System] INFO: Logging to file: True
+2025-06-29 06:01:18 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:01:18 [System] INFO: Performance logging: False
+2025-06-29 06:01:18 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:02:24 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:02:24 [System] INFO: Log level: INFO
+2025-06-29 06:02:24 [System] INFO: Logging to file: True
+2025-06-29 06:02:24 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:02:24 [System] INFO: Performance logging: False
+2025-06-29 06:02:24 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:03:35 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:03:35 [System] INFO: Log level: INFO
+2025-06-29 06:03:35 [System] INFO: Logging to file: True
+2025-06-29 06:03:35 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:03:35 [System] INFO: Performance logging: False
+2025-06-29 06:03:35 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:03:57 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:03:57 [System] INFO: Log level: INFO
+2025-06-29 06:03:57 [System] INFO: Logging to file: True
+2025-06-29 06:03:57 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:03:57 [System] INFO: Performance logging: False
+2025-06-29 06:03:57 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:04:19 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:04:19 [System] INFO: Log level: INFO
+2025-06-29 06:04:19 [System] INFO: Logging to file: True
+2025-06-29 06:04:19 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:04:19 [System] INFO: Performance logging: False
+2025-06-29 06:04:19 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:04:25 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:04:25 [System] INFO: Log level: INFO
+2025-06-29 06:04:25 [System] INFO: Logging to file: True
+2025-06-29 06:04:25 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:04:25 [System] INFO: Performance logging: False
+2025-06-29 06:04:25 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:05:52 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:05:52 [System] INFO: Log level: INFO
+2025-06-29 06:05:52 [System] INFO: Logging to file: True
+2025-06-29 06:05:52 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:05:52 [System] INFO: Performance logging: False
+2025-06-29 06:05:52 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:19:33 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:19:33 [System] INFO: Log level: INFO
+2025-06-29 06:19:33 [System] INFO: Logging to file: True
+2025-06-29 06:19:33 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:19:33 [System] INFO: Performance logging: False
+2025-06-29 06:19:33 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:21:47 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:21:47 [System] INFO: Log level: INFO
+2025-06-29 06:21:47 [System] INFO: Logging to file: True
+2025-06-29 06:21:47 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:21:47 [System] INFO: Performance logging: False
+2025-06-29 06:21:47 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:23:00 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:23:00 [System] INFO: Log level: INFO
+2025-06-29 06:23:00 [System] INFO: Logging to file: True
+2025-06-29 06:23:00 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:23:00 [System] INFO: Performance logging: False
+2025-06-29 06:23:00 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:24:38 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:24:38 [System] INFO: Log level: INFO
+2025-06-29 06:24:38 [System] INFO: Logging to file: True
+2025-06-29 06:24:38 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:24:38 [System] INFO: Performance logging: False
+2025-06-29 06:24:38 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 06:25:37 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 06:25:37 [System] INFO: Log level: INFO
+2025-06-29 06:25:37 [System] INFO: Logging to file: True
+2025-06-29 06:25:37 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 06:25:37 [System] INFO: Performance logging: False
+2025-06-29 06:25:37 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 08:22:42 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 08:22:42 [System] INFO: Log level: INFO
+2025-06-29 08:22:42 [System] INFO: Logging to file: True
+2025-06-29 08:22:42 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 08:22:42 [System] INFO: Performance logging: False
+2025-06-29 08:22:42 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 08:23:10 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 08:23:10 [System] INFO: Log level: INFO
+2025-06-29 08:23:10 [System] INFO: Logging to file: True
+2025-06-29 08:23:10 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 08:23:10 [System] INFO: Performance logging: False
+2025-06-29 08:23:10 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-06-29 08:23:18 [System] INFO: Quantum Computing Platform starting up
+2025-06-29 08:23:18 [System] INFO: Log level: INFO
+2025-06-29 08:23:18 [System] INFO: Logging to file: True
+2025-06-29 08:23:18 [System] INFO: Log file: logs/quantum_platform.log
+2025-06-29 08:23:18 [System] INFO: Performance logging: False
+2025-06-29 08:23:18 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:17:44 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:17:44 [System] INFO: Log level: INFO
+2025-07-05 10:17:44 [System] INFO: Logging to file: True
+2025-07-05 10:17:44 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:17:44 [System] INFO: Performance logging: False
+2025-07-05 10:17:44 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:19:18 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:19:18 [System] INFO: Log level: INFO
+2025-07-05 10:19:18 [System] INFO: Logging to file: True
+2025-07-05 10:19:18 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:19:18 [System] INFO: Performance logging: False
+2025-07-05 10:19:18 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:36:44 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:36:44 [System] INFO: Log level: INFO
+2025-07-05 10:36:44 [System] INFO: Logging to file: True
+2025-07-05 10:36:44 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:36:44 [System] INFO: Performance logging: False
+2025-07-05 10:36:44 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:38:07 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:38:07 [System] INFO: Log level: INFO
+2025-07-05 10:38:07 [System] INFO: Logging to file: True
+2025-07-05 10:38:07 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:38:07 [System] INFO: Performance logging: False
+2025-07-05 10:38:07 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:38:26 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:38:26 [System] INFO: Log level: INFO
+2025-07-05 10:38:26 [System] INFO: Logging to file: True
+2025-07-05 10:38:26 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:38:26 [System] INFO: Performance logging: False
+2025-07-05 10:38:26 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:38:52 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:38:52 [System] INFO: Log level: INFO
+2025-07-05 10:38:52 [System] INFO: Logging to file: True
+2025-07-05 10:38:52 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:38:52 [System] INFO: Performance logging: False
+2025-07-05 10:38:52 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:39:15 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:39:15 [System] INFO: Log level: INFO
+2025-07-05 10:39:15 [System] INFO: Logging to file: True
+2025-07-05 10:39:15 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:39:15 [System] INFO: Performance logging: False
+2025-07-05 10:39:15 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Switched to provider 'local', device 'local_simulator'
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:39:16 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:39:24 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:39:24 [System] INFO: Log level: INFO
+2025-07-05 10:39:24 [System] INFO: Logging to file: True
+2025-07-05 10:39:24 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:39:24 [System] INFO: Performance logging: False
+2025-07-05 10:39:24 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:39:24 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:39:24 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:39:24 [quantum_platform.providers.provider_manager] INFO: Started device discovery thread
+2025-07-05 10:40:35 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:40:35 [System] INFO: Log level: INFO
+2025-07-05 10:40:35 [System] INFO: Logging to file: True
+2025-07-05 10:40:35 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:40:35 [System] INFO: Performance logging: False
+2025-07-05 10:40:35 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Switched to provider 'local', device 'local_simulator'
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:40:35 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:50:43 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:50:43 [System] INFO: Log level: INFO
+2025-07-05 10:50:43 [System] INFO: Logging to file: True
+2025-07-05 10:50:43 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:50:43 [System] INFO: Performance logging: False
+2025-07-05 10:50:43 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:50:50 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:50:50 [System] INFO: Log level: INFO
+2025-07-05 10:50:50 [System] INFO: Logging to file: True
+2025-07-05 10:50:50 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:50:50 [System] INFO: Performance logging: False
+2025-07-05 10:50:50 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 2 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 2 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 2 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 2 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 2 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 2 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 1 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 1 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Starting optimization with 1 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] ERROR: Error in optimization iteration 0: handle_errors.<locals>.decorator() takes 1 positional argument but 2 were given
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Switched to provider 'local', device 'local_simulator'
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Loaded configuration from /Users/alctoria/.quantum_platform/providers.json
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Provider manager initialized
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: local_simulator
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 3 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: local_simulator
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 6 parameters
+2025-07-05 10:50:50 [quantum_platform.providers.provider_manager] INFO: Switched to provider 'local', device 'local_simulator'
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: local_simulator
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 1 parameters
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: local_simulator
+2025-07-05 10:50:50 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 1 parameters
+2025-07-05 10:51:39 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:51:39 [System] INFO: Log level: INFO
+2025-07-05 10:51:39 [System] INFO: Logging to file: True
+2025-07-05 10:51:39 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:51:39 [System] INFO: Performance logging: False
+2025-07-05 10:51:39 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:51:39 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:51:39 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 2 parameters
+2025-07-05 10:51:39 [quantum_platform.orchestration.hybrid_executor] INFO: Executing circuit with 2 parameters
+2025-07-05 10:51:39 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 1 failed: 'LocalSimulatorBackend' object has no attribute 'is_available'
+2025-07-05 10:51:39 [quantum_platform.orchestration.hybrid_executor] INFO: Retrying in 2.00 seconds...
+2025-07-05 10:51:41 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 2 failed: 'LocalSimulatorBackend' object has no attribute 'is_available'
+2025-07-05 10:51:41 [quantum_platform.orchestration.hybrid_executor] INFO: Retrying in 4.00 seconds...
+2025-07-05 10:51:45 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 3 failed: 'LocalSimulatorBackend' object has no attribute 'is_available'
+2025-07-05 10:51:45 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 4 failed: 'LocalSimulatorBackend' object has no attribute 'is_available'
+2025-07-05 10:51:45 [quantum_platform.orchestration.hybrid_executor] ERROR: Execution failed: Execution failed after 3 retries
+2025-07-05 10:52:18 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:52:18 [System] INFO: Log level: INFO
+2025-07-05 10:52:18 [System] INFO: Logging to file: True
+2025-07-05 10:52:18 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:52:18 [System] INFO: Performance logging: False
+2025-07-05 10:52:18 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:52:19 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:52:19 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 2 parameters
+2025-07-05 10:52:19 [quantum_platform.orchestration.hybrid_executor] INFO: Executing circuit with 2 parameters
+2025-07-05 10:52:19 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 1 failed: handle_errors.<locals>.decorator() got an unexpected keyword argument 'shots'
+2025-07-05 10:52:19 [quantum_platform.orchestration.hybrid_executor] INFO: Retrying in 2.00 seconds...
+2025-07-05 10:52:21 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 2 failed: handle_errors.<locals>.decorator() got an unexpected keyword argument 'shots'
+2025-07-05 10:52:21 [quantum_platform.orchestration.hybrid_executor] INFO: Retrying in 4.00 seconds...
+2025-07-05 10:52:25 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 3 failed: handle_errors.<locals>.decorator() got an unexpected keyword argument 'shots'
+2025-07-05 10:52:25 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 4 failed: handle_errors.<locals>.decorator() got an unexpected keyword argument 'shots'
+2025-07-05 10:52:25 [quantum_platform.orchestration.hybrid_executor] ERROR: Execution failed: Execution failed after 3 retries
+2025-07-05 10:53:01 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:53:01 [System] INFO: Log level: INFO
+2025-07-05 10:53:01 [System] INFO: Logging to file: True
+2025-07-05 10:53:01 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:53:01 [System] INFO: Performance logging: False
+2025-07-05 10:53:01 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:53:01 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:53:01 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 2 parameters
+2025-07-05 10:53:01 [quantum_platform.orchestration.hybrid_executor] INFO: Executing circuit with 2 parameters
+2025-07-05 10:53:01 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 1 failed: handle_errors.<locals>.decorator() takes 1 positional argument but 3 were given
+2025-07-05 10:53:01 [quantum_platform.orchestration.hybrid_executor] INFO: Retrying in 2.00 seconds...
+2025-07-05 10:53:03 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 2 failed: handle_errors.<locals>.decorator() takes 1 positional argument but 3 were given
+2025-07-05 10:53:03 [quantum_platform.orchestration.hybrid_executor] INFO: Retrying in 4.00 seconds...
+2025-07-05 10:53:07 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 3 failed: handle_errors.<locals>.decorator() takes 1 positional argument but 3 were given
+2025-07-05 10:53:07 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 4 failed: handle_errors.<locals>.decorator() takes 1 positional argument but 3 were given
+2025-07-05 10:53:07 [quantum_platform.orchestration.hybrid_executor] ERROR: Execution failed: Execution failed after 3 retries
+2025-07-05 10:53:43 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 10:53:43 [System] INFO: Log level: INFO
+2025-07-05 10:53:43 [System] INFO: Logging to file: True
+2025-07-05 10:53:43 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 10:53:43 [System] INFO: Performance logging: False
+2025-07-05 10:53:43 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 10:53:43 [quantum_platform.orchestration.hybrid_executor] INFO: Initialized HybridExecutor with backend: test_backend
+2025-07-05 10:53:43 [quantum_platform.orchestration.hybrid_executor] INFO: Circuit set with 2 parameters
+2025-07-05 10:53:43 [quantum_platform.orchestration.hybrid_executor] INFO: Executing circuit with 2 parameters
+2025-07-05 10:53:43 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 1 failed: '>' not supported between instances of 'int' and 'str'
+2025-07-05 10:53:43 [quantum_platform.orchestration.hybrid_executor] INFO: Retrying in 2.00 seconds...
+2025-07-05 10:53:45 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 2 failed: '>' not supported between instances of 'int' and 'str'
+2025-07-05 10:53:45 [quantum_platform.orchestration.hybrid_executor] INFO: Retrying in 4.00 seconds...
+2025-07-05 10:53:49 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 3 failed: '>' not supported between instances of 'int' and 'str'
+2025-07-05 10:53:49 [quantum_platform.orchestration.hybrid_executor] WARNING: Execution attempt 4 failed: '>' not supported between instances of 'int' and 'str'
+2025-07-05 10:53:49 [quantum_platform.orchestration.hybrid_executor] ERROR: Execution failed: Execution failed after 3 retries
+2025-07-05 11:01:40 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 11:01:40 [System] INFO: Log level: INFO
+2025-07-05 11:01:40 [System] INFO: Logging to file: True
+2025-07-05 11:01:40 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 11:01:40 [System] INFO: Performance logging: False
+2025-07-05 11:01:40 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 11:01:50 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 11:01:50 [System] INFO: Log level: INFO
+2025-07-05 11:01:50 [System] INFO: Logging to file: True
+2025-07-05 11:01:50 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 11:01:50 [System] INFO: Performance logging: False
+2025-07-05 11:01:50 [quantum_platform.errors.reporter] INFO: Error reporter initialized

@@ -21,12 +21,14 @@ from .exceptions import (
     CircuitError,
     QubitError,
     GateError,
+    ParameterError,
     MeasurementError,
     
     # Execution errors
     ExecutionError,
     SimulationError,
     HardwareError,
+    MitigationError,
     
     # Compliance errors
     ComplianceError,
@@ -35,7 +37,7 @@ from .exceptions import (
     
     # Serialization errors
     SerializationError,
-    ImportError,
+    ImportError as QuantumImportError,
     ExportError,
     
     # Infrastructure errors
@@ -74,14 +76,26 @@ from .alerts import (
     create_error_alert
 )
 
+from .decorator import (
+    handle_errors,
+    catch_and_report,
+    user_friendly_errors,
+    critical_operation,
+    safe_execute,
+    compiler_errors,
+    simulation_errors,
+    ui_errors,
+    hardware_errors
+)
+
 __all__ = [
     # Exceptions
     'QuantumPlatformError', 'UserError', 'SystemError',
     'CompilationError', 'ParseError', 'OptimizationError', 'TranspilationError',
-    'CircuitError', 'QubitError', 'GateError', 'MeasurementError',
-    'ExecutionError', 'SimulationError', 'HardwareError',
+    'CircuitError', 'QubitError', 'GateError', 'ParameterError', 'MeasurementError',
+    'ExecutionError', 'SimulationError', 'HardwareError', 'MitigationError',
     'ComplianceError', 'ResourceLimitError', 'SecurityError',
-    'SerializationError', 'ImportError', 'ExportError',
+    'SerializationError', 'QuantumImportError', 'ExportError',
     'ConfigurationError', 'PluginError', 'NetworkError',
     
     # Helper functions
@@ -95,5 +109,9 @@ __all__ = [
     'format_error_message', 'create_user_friendly_message',
     
     # Alerts
-    'AlertManager', 'AlertType', 'AlertSeverity', 'get_alert_manager', 'create_error_alert'
+    'AlertManager', 'AlertType', 'AlertSeverity', 'get_alert_manager', 'create_error_alert',
+    
+    # Decorators
+    'handle_errors', 'catch_and_report', 'user_friendly_errors', 'critical_operation',
+    'safe_execute', 'compiler_errors', 'simulation_errors', 'ui_errors', 'hardware_errors'
 ] 

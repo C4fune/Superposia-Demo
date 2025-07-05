@@ -19,13 +19,17 @@ class ParameterValue:
     This is used for parameterized gates where the parameter might be:
     - A concrete numeric value (float, int)
     - A symbolic expression (sympy.Symbol or expression)
+    - A parameter name (string) that gets converted to a sympy.Symbol
     """
     value: Union[float, int, sympy.Basic]
     
     def __post_init__(self):
-        """Validate the parameter value."""
-        if not isinstance(self.value, (int, float, sympy.Basic)):
-            raise TypeError(f"Parameter value must be numeric or sympy expression, got {type(self.value)}")
+        """Validate and normalize the parameter value."""
+        if isinstance(self.value, str):
+            # Convert string parameter names to sympy symbols
+            object.__setattr__(self, 'value', sympy.Symbol(self.value, real=True))
+        elif not isinstance(self.value, (int, float, sympy.Basic)):
+            raise TypeError(f"Parameter value must be numeric, string, or sympy expression, got {type(self.value)}")
     
     @property
     def is_symbolic(self) -> bool:

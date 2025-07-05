@@ -29,7 +29,7 @@ def _get_context_stack() -> List['QuantumContext']:
 
 
 def get_current_context() -> Optional['QuantumContext']:
-    """Get the current quantum context."""
+    """Get the current active quantum context."""
     stack = _get_context_stack()
     return stack[-1] if stack else None
 
@@ -38,8 +38,8 @@ class QuantumContext:
     """
     Context for quantum program execution.
     
-    This manages the current circuit, qubit allocations, and provides
-    the execution context for quantum operations.
+    This provides the runtime environment for quantum programs, including
+    qubit allocation, gate application, and measurement operations.
     """
     
     def __init__(self, circuit: Optional[QuantumCircuit] = None, name: Optional[str] = None):
@@ -47,7 +47,7 @@ class QuantumContext:
         Initialize quantum context.
         
         Args:
-            circuit: Existing circuit to use (creates new if None)
+            circuit: Optional quantum circuit to work with
             name: Optional name for the context
         """
         self.circuit = circuit or QuantumCircuit(name=name)
@@ -57,9 +57,6 @@ class QuantumContext:
         # Track allocated resources
         self._allocated_qubits: List[Qubit] = []
         self._classical_registers: Dict[str, ClassicalRegister] = {}
-        
-        # Measurement results storage
-        self._measurement_results: Dict[str, Any] = {}
         
         # Context state
         self._is_active = False
@@ -82,6 +79,35 @@ class QuantumContext:
     def is_active(self) -> bool:
         """Check if this context is currently active."""
         return self._is_active
+    
+    def allocate_qubit(self, name: Optional[str] = None) -> Qubit:
+        """
+        Allocate a single qubit.
+        
+        Args:
+            name: Optional name for the qubit
+            
+        Returns:
+            Allocated qubit
+        """
+        qubit = self.circuit.allocate_qubit(name)
+        self._allocated_qubits.append(qubit)
+        return qubit
+    
+    def allocate_qubits(self, count: int, names: Optional[List[str]] = None) -> List[Qubit]:
+        """
+        Allocate multiple qubits.
+        
+        Args:
+            count: Number of qubits to allocate
+            names: Optional names for the qubits
+            
+        Returns:
+            List of allocated qubits
+        """
+        qubits = self.circuit.allocate_qubits(count, names)
+        self._allocated_qubits.extend(qubits)
+        return qubits
     
     def allocate(self, count: int = 1, names: Optional[List[str]] = None) -> List[Qubit]:
         """
@@ -281,17 +307,24 @@ class QuantumProgram:
         return json.dumps(self.to_dict(), indent=2)
 
 
-# Convenience functions for the DSL
+# =============================================================================
+# Module-level convenience functions
+# =============================================================================
+
 def allocate(count: int = 1, names: Optional[List[str]] = None) -> List[Qubit]:
     """
     Allocate qubits in the current context.
     
-    This is a convenience function that operates on the current quantum context.
+    Args:
+        count: Number of qubits to allocate
+        names: Optional names for the qubits
+        
+    Returns:
+        List of allocated qubits
     """
     context = get_current_context()
     if context is None:
         raise RuntimeError("No active quantum context. Use 'with QuantumProgram():' first.")
-    
     return context.allocate(count, names)
 
 
@@ -300,7 +333,6 @@ def allocate_register(name: str, size: int) -> QubitRegister:
     context = get_current_context()
     if context is None:
         raise RuntimeError("No active quantum context. Use 'with QuantumProgram():' first.")
-    
     return context.allocate_register(name, size)
 
 
@@ -309,7 +341,6 @@ def add_classical_register(name: str, size: int) -> ClassicalRegister:
     context = get_current_context()
     if context is None:
         raise RuntimeError("No active quantum context. Use 'with QuantumProgram():' first.")
-    
     return context.add_classical_register(name, size)
 
 
@@ -319,7 +350,6 @@ def measure(qubits: Union[Qubit, List[Qubit]],
     context = get_current_context()
     if context is None:
         raise RuntimeError("No active quantum context. Use 'with QuantumProgram():' first.")
-    
     return context.measure(qubits, classical_register)
 
 
@@ -328,7 +358,6 @@ def reset(qubit: Qubit) -> Operation:
     context = get_current_context()
     if context is None:
         raise RuntimeError("No active quantum context. Use 'with QuantumProgram():' first.")
-    
     return context.reset_qubit(qubit)
 
 
@@ -337,11 +366,10 @@ def barrier(qubits: Optional[Union[Qubit, List[Qubit]]] = None) -> Operation:
     context = get_current_context()
     if context is None:
         raise RuntimeError("No active quantum context. Use 'with QuantumProgram():' first.")
-    
     return context.barrier(qubits)
 
 
 def get_current_circuit() -> Optional[QuantumCircuit]:
-    """Get the current circuit being built."""
+    """Get the current circuit."""
     context = get_current_context()
     return context.circuit if context else None 

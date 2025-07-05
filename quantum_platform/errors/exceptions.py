@@ -164,6 +164,13 @@ class GateError(CircuitError):
         return "Gate error: Check gate parameters, target qubits, and operation validity."
 
 
+class ParameterError(CircuitError):
+    """Errors related to circuit parameters."""
+    
+    def _generate_user_message(self) -> str:
+        return "Parameter error: Check parameter names, values, and binding operations."
+
+
 class MeasurementError(CircuitError):
     """Errors related to measurement operations."""
     
@@ -196,29 +203,36 @@ class HardwareError(ExecutionError):
         return "Hardware execution failed. Check device availability and circuit compatibility."
 
 
+class MitigationError(ExecutionError):
+    """Errors during error mitigation and correction."""
+    
+    def _generate_user_message(self) -> str:
+        return "Error mitigation failed. Check calibration data and mitigation settings."
+
+
 # =============================================================================
 # Compliance Errors
 # =============================================================================
 
 class ComplianceError(UserError):
-    """Base class for compliance-related errors."""
+    """Base class for compliance and resource errors."""
     
     def _generate_user_message(self) -> str:
-        return "Compliance violation detected. Please review the requirements and constraints."
+        return "Your quantum program violates platform restrictions or resource limits."
 
 
 class ResourceLimitError(ComplianceError):
     """Errors when resource limits are exceeded."""
     
     def _generate_user_message(self) -> str:
-        return "Resource limit exceeded. Reduce circuit size or complexity, or select a different target."
+        return "Resource limit exceeded. Please reduce circuit complexity or request higher limits."
 
 
 class SecurityError(ComplianceError):
-    """Security-related errors."""
+    """Errors related to security and access control."""
     
     def _generate_user_message(self) -> str:
-        return "Security policy violation. Please check permissions and authentication."
+        return "Access denied. Check your permissions or contact an administrator."
 
 
 # =============================================================================
@@ -229,21 +243,21 @@ class SerializationError(QuantumPlatformError):
     """Base class for serialization errors."""
     
     def _generate_user_message(self) -> str:
-        return "Error during circuit serialization or deserialization."
+        return "Error converting quantum program format. Check file format and content."
 
 
 class ImportError(SerializationError):
-    """Errors during circuit import."""
+    """Errors during import operations."""
     
     def _generate_user_message(self) -> str:
-        return "Failed to import circuit. Check file format and content validity."
+        return "Failed to import quantum program. Check file format and syntax."
 
 
 class ExportError(SerializationError):
-    """Errors during circuit export."""
+    """Errors during export operations."""
     
     def _generate_user_message(self) -> str:
-        return "Failed to export circuit. Check target format compatibility."
+        return "Failed to export quantum program. Check output format and permissions."
 
 
 # =============================================================================
@@ -251,28 +265,28 @@ class ExportError(SerializationError):
 # =============================================================================
 
 class ConfigurationError(SystemError):
-    """Configuration-related errors."""
+    """Errors in platform configuration."""
     
     def _generate_user_message(self) -> str:
-        return "Configuration error. Check platform settings and configuration files."
+        return "Configuration error. Please check platform settings or contact support."
 
 
 class PluginError(SystemError):
-    """Plugin-related errors."""
+    """Errors in plugin system."""
     
     def _generate_user_message(self) -> str:
-        return "Plugin error. A plugin may be incompatible or corrupted."
+        return "Plugin error. Check plugin installation and configuration."
 
 
 class NetworkError(SystemError):
-    """Network-related errors."""
+    """Errors related to network operations."""
     
     def _generate_user_message(self) -> str:
         return "Network error. Check internet connection and service availability."
 
 
 # =============================================================================
-# Error Creation Utilities
+# Error Creation Helpers
 # =============================================================================
 
 def create_parse_error(
@@ -284,13 +298,12 @@ def create_parse_error(
 ) -> ParseError:
     """Create a parse error with context."""
     context = ErrorContext(
-        component="Compiler",
+        component="Parser",
         operation="Parse",
         line_number=line_number,
         file_path=file_path,
         user_input=user_input
     )
-    
     return ParseError(
         message=message,
         context=context,
@@ -310,7 +323,6 @@ def create_qubit_error(
         operation=operation or "Qubit Operation",
         system_state={"qubit_id": qubit_id} if qubit_id is not None else {}
     )
-    
     return QubitError(
         message=message,
         context=context,
@@ -327,8 +339,8 @@ def create_resource_limit_error(
 ) -> ResourceLimitError:
     """Create a resource limit error with context."""
     context = ErrorContext(
-        component="Compliance",
-        operation="Resource Check",
+        component="Resource Manager",
+        operation="Resource Allocation",
         system_state={
             "resource_type": resource_type,
             "limit": limit,
@@ -338,8 +350,8 @@ def create_resource_limit_error(
     
     default_suggestions = [
         f"Reduce {resource_type} usage to {limit} or less",
-        "Consider using a different target with higher limits",
-        "Split your circuit into smaller parts"
+        "Contact administrator for higher limits",
+        "Consider splitting the operation into smaller parts"
     ]
     
     return ResourceLimitError(
@@ -358,22 +370,21 @@ def create_simulation_error(
 ) -> SimulationError:
     """Create a simulation error with context."""
     context = ErrorContext(
-        component="Simulation",
+        component="Simulator",
         operation="Execute",
         system_state={
             "num_qubits": num_qubits,
             "shots": shots,
-            "memory_required_gb": memory_required
+            "memory_required": memory_required
         }
     )
     
-    default_suggestions = []
-    if num_qubits and num_qubits > 20:
-        default_suggestions.append("Reduce the number of qubits (current: {})".format(num_qubits))
-    if shots and shots > 100000:
-        default_suggestions.append("Reduce the number of shots (current: {})".format(shots))
-    if memory_required and memory_required > 8:
-        default_suggestions.append("Circuit requires too much memory ({:.1f}GB)".format(memory_required))
+    default_suggestions = [
+        "Reduce circuit size or complexity",
+        "Decrease number of shots",
+        "Use a more powerful simulator",
+        "Consider using quantum hardware instead"
+    ]
     
     return SimulationError(
         message=message,
