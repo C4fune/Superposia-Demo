@@ -588,3 +588,83 @@
 2025-07-05 11:01:50 [System] INFO: Log file: logs/quantum_platform.log
 2025-07-05 11:01:50 [System] INFO: Performance logging: False
 2025-07-05 11:01:50 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 11:58:17 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 11:58:17 [System] INFO: Log level: INFO
+2025-07-05 11:58:17 [System] INFO: Logging to file: True
+2025-07-05 11:58:17 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 11:58:17 [System] INFO: Performance logging: False
+2025-07-05 11:58:17 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 11:58:44 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 11:58:44 [System] INFO: Log level: INFO
+2025-07-05 11:58:44 [System] INFO: Logging to file: True
+2025-07-05 11:58:44 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 11:58:44 [System] INFO: Performance logging: False
+2025-07-05 11:58:44 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 11:59:12 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 11:59:12 [System] INFO: Log level: INFO
+2025-07-05 11:59:12 [System] INFO: Logging to file: True
+2025-07-05 11:59:12 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 11:59:12 [System] INFO: Performance logging: False
+2025-07-05 11:59:12 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 11:59:34 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 11:59:34 [System] INFO: Log level: INFO
+2025-07-05 11:59:34 [System] INFO: Logging to file: True
+2025-07-05 11:59:34 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 11:59:34 [System] INFO: Performance logging: False
+2025-07-05 11:59:34 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 12:10:11 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 12:10:11 [System] INFO: Log level: INFO
+2025-07-05 12:10:11 [System] INFO: Logging to file: True
+2025-07-05 12:10:11 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 12:10:11 [System] INFO: Performance logging: False
+2025-07-05 12:10:11 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 12:21:21 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 12:21:21 [System] INFO: Log level: INFO
+2025-07-05 12:21:21 [System] INFO: Logging to file: True
+2025-07-05 12:21:21 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 12:21:21 [System] INFO: Performance logging: False
+2025-07-05 12:21:21 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 12:21:21 [ExperimentDatabase] INFO: Database tables and indexes created successfully
+2025-07-05 12:21:21 [ExperimentDatabase] INFO: Experiment database initialized at quantum_experiments.db
+2025-07-05 12:21:21 [ExperimentDatabase] INFO: Circuit with same content already exists: 039a9046-7a62-4964-ae90-a2c03d32b24b
+2025-07-05 12:21:21 [ExperimentDatabase] INFO: Created experiment: 612ffb86-f1d4-4eed-acb5-5508f5b31651 (Test Experiment)
+2025-07-05 12:21:21 [ExperimentDatabase] INFO: Created result: 945b47dd-9346-495b-b588-159fcbfeba24 for experiment 612ffb86-f1d4-4eed-acb5-5508f5b31651
+2025-07-05 12:22:16 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 12:22:16 [System] INFO: Log level: INFO
+2025-07-05 12:22:16 [System] INFO: Logging to file: True
+2025-07-05 12:22:16 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 12:22:16 [System] INFO: Performance logging: False
+2025-07-05 12:22:16 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 12:22:16 [ExperimentDatabase] INFO: Database tables and indexes created successfully
+2025-07-05 12:22:16 [ExperimentDatabase] INFO: Experiment database initialized at quantum_experiments.db
+2025-07-05 12:22:16 [ExperimentDatabase] INFO: Circuit with same content already exists: 039a9046-7a62-4964-ae90-a2c03d32b24b
+2025-07-05 12:22:16 [ExperimentDatabase] INFO: Created experiment: 487b65b9-4a0c-4db2-96e7-ee2101769948 (Test Experiment)
+2025-07-05 12:22:16 [ExperimentDatabase] INFO: Created result: 8f65ed6c-237e-4f8e-beaa-fab06ca8572b for experiment 487b65b9-4a0c-4db2-96e7-ee2101769948
+2025-07-05 12:22:52 [System] INFO: Quantum Computing Platform starting up
+2025-07-05 12:22:52 [System] INFO: Log level: INFO
+2025-07-05 12:22:52 [System] INFO: Logging to file: True
+2025-07-05 12:22:52 [System] INFO: Log file: logs/quantum_platform.log
+2025-07-05 12:22:52 [System] INFO: Performance logging: False
+2025-07-05 12:22:52 [quantum_platform.errors.reporter] INFO: Error reporter initialized
+2025-07-05 12:22:52 [ExperimentDatabase] INFO: Database tables and indexes created successfully
+2025-07-05 12:22:52 [ExperimentDatabase] INFO: Experiment database initialized at quantum_experiments.db
+2025-07-05 12:22:52 [ExperimentDatabase] INFO: Circuit with same content already exists: 039a9046-7a62-4964-ae90-a2c03d32b24b
+2025-07-05 12:22:52 [ExperimentDatabase] INFO: Created experiment: f4dd65aa-bad4-42da-99c7-52b8cec5550a (Test Experiment)
+2025-07-05 12:22:52 [ExperimentDatabase] INFO: Created result: 92b68147-a1dc-4c83-b4ab-47cf9688305d for experiment f4dd65aa-bad4-42da-99c7-52b8cec5550a
+2025-07-05 12:22:52 [MarketplaceManager] INFO: Marketplace manager initialized
+2025-07-05 12:22:52 [MarketplaceManager] INFO: Updated package cache with 6 packages
+2025-07-05 12:22:52 [MarketplaceManager] INFO: Updated package cache with 6 packages
+2025-07-05 12:22:52 [MarketplaceManager] ERROR: Failed to download and install package: HTTPSConnectionPool(host='quantum-platform.org', port=443): Max retries exceeded with url: /packages/packages/advanced-algorithms (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x146c0fa40>: Failed to resolve 'quantum-platform.org' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-07-05 12:22:52 [MarketplaceManager] ERROR: Failed to install package advanced-algorithms
+2025-07-05 12:22:52 [MarketplaceManager] INFO: Updated package cache with 6 packages
+2025-07-05 12:22:52 [CommunityManager] INFO: Loaded 0 users, 0 contributions
+2025-07-05 12:22:52 [CommunityManager] INFO: Community manager initialized
+2025-07-05 12:22:52 [CommunityManager] INFO: Created user profile for quantum_alice
+2025-07-05 12:22:52 [CommunityManager] INFO: Created user profile for quantum_bob
+2025-07-05 12:22:52 [CommunityManager] INFO: New contribution submitted: Enhanced Grover
+2025-07-05 12:22:52 [CommunityManager] INFO: New contribution submitted: Quantum Neural Network
+2025-07-05 12:22:52 [CommunityManager] INFO: Package quantum-algorithm-library rated by user dec9927c-396d-4d6f-b802-600dbd05b98e
+2025-07-05 12:22:52 [CommunityManager] INFO: Package quantum-algorithm-library rated by user db2c9e93-d86e-4e61-a6d5-61898cabbb4b
+2025-07-05 12:22:52 [CommunityManager] INFO: New discussion thread created: Best practices for quantum error correction
+2025-07-05 12:22:52 [CommunityManager] INFO: New discussion thread created: Variational quantum algorithms optimization
+2025-07-05 12:22:52 [PluginManager] INFO: Plugin manager initialized with 0 plugins

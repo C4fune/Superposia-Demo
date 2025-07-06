@@ -1,0 +1,145 @@
+{
+  "name": "example-comprehensive-plugin",
+  "version": "1.0.0",
+  "description": "Comprehensive example plugin demonstrating algorithms, visualizations, and tools",
+  "author": "Quantum Platform Team",
+  "plugin_type": "algorithm",
+  "entry_point": "example_plugin",
+  "dependencies": [],
+  "min_platform_version": "1.0.0",
+  "max_platform_version": null,
+  "tags": [
+    "example",
+    "algorithms",
+    "visualizations",
+    "tools",
+    "educational"
+  ],
+  "license": "MIT",
+  "repository_url": "https://github.com/quantum-platform/example-plugin",
+  "documentation_url": "https://quantum-platform.org/docs/plugins/example",
+  "homepage_url": "https://quantum-platform.org/plugins/example",
+  "algorithms": {
+    "custom_bell": {
+      "description": "Custom Bell state with optional rotation",
+      "parameters": {
+        "rotation_angle": {
+          "type": "float",
+          "default": 0.0,
+          "description": "Rotation angle in radians"
+        }
+      }
+    },
+    "parameterized_rotation": {
+      "description": "Parameterized rotation circuit",
+      "parameters": {
+        "num_qubits": {
+          "type": "int",
+          "default": 2,
+          "description": "Number of qubits"
+        },
+        "rotation_angles": {
+          "type": "list",
+          "default": null,
+          "description": "List of rotation angles"
+        }
+      }
+    },
+    "multi_qubit_entangler": {
+      "description": "Multi-qubit entangling circuit",
+      "parameters": {
+        "num_qubits": {
+          "type": "int",
+          "default": 4,
+          "description": "Number of qubits"
+        },
+        "entangling_pattern": {
+          "type": "string",
+          "default": "linear",
+          "options": ["linear", "circular", "all_to_all"],
+          "description": "Entangling pattern"
+        }
+      }
+    },
+    "quantum_random_walk": {
+      "description": "Quantum random walk circuit",
+      "parameters": {
+        "num_steps": {
+          "type": "int",
+          "default": 3,
+          "description": "Number of walk steps"
+        },
+        "num_position_qubits": {
+          "type": "int",
+          "default": 2,
+          "description": "Number of position qubits"
+        }
+      }
+    }
+  },
+  "visualizations": {
+    "circuit_diagram": {
+      "description": "Circuit diagram visualization",
+      "input_type": "QuantumCircuit"
+    },
+    "state_histogram": {
+      "description": "Measurement results histogram",
+      "input_type": "Dict[str, int]"
+    },
+    "bloch_sphere": {
+      "description": "Bloch sphere representation",
+      "input_type": "List[complex]"
+    },
+    "probability_distribution": {
+      "description": "Probability distribution plot",
+      "input_type": "Dict[str, float]"
+    }
+  },
+  "tools": {
+    "circuit_optimizer": {
+      "description": "Circuit optimization tool",
+      "parameters": {
+        "optimization_level": {
+          "type": "int",
+          "default": 1,
+          "description": "Optimization level (1-3)"
+        }
+      }
+    },
+    "fidelity_calculator": {
+      "description": "Quantum state fidelity calculator",
+      "parameters": {
+        "calculation_method": {
+          "type": "string",
+          "default": "state_vector_fidelity",
+          "description": "Fidelity calculation method"
+        }
+      }
+    },
+    "noise_analyzer": {
+      "description": "Quantum noise analysis tool",
+      "parameters": {
+        "analysis_type": {
+          "type": "string",
+          "default": "entropy",
+          "description": "Type of noise analysis"
+        }
+      }
+    },
+    "parameter_estimator": {
+      "description": "Parameter estimation for variational circuits",
+      "parameters": {
+        "num_parameters": {
+          "type": "int",
+          "default": 2,
+          "description": "Number of parameters to estimate"
+        },
+        "estimation_method": {
+          "type": "string",
+          "default": "gradient_descent",
+          "description": "Parameter estimation method"
+        }
+      }
+    }
+  }
+} 

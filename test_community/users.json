@@ -1,0 +1,32 @@
+[
+  {
+    "user_id": "dec9927c-396d-4d6f-b802-600dbd05b98e",
+    "username": "quantum_alice",
+    "display_name": "Alice Quantum",
+    "email": "alice@quantum.com",
+    "bio": "Quantum computing researcher",
+    "location": "Boston, MA",
+    "website": "",
+    "github_username": "quantum_alice",
+    "created_at": "2025-07-05T19:22:52.987636+00:00",
+    "contributions": 1,
+    "reputation": 0,
+    "badges": [],
+    "favorite_algorithms": []
+  },
+  {
+    "user_id": "db2c9e93-d86e-4e61-a6d5-61898cabbb4b",
+    "username": "quantum_bob",
+    "display_name": "Bob Entangled",
+    "email": "bob@quantum.com",
+    "bio": "Quantum algorithm developer",
+    "location": "San Francisco, CA",
+    "website": "",
+    "github_username": "quantum_bob",
+    "created_at": "2025-07-05T19:22:52.988161+00:00",
+    "contributions": 1,
+    "reputation": 0,
+    "badges": [],
+    "favorite_algorithms": []
+  }
+]

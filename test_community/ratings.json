@@ -1,0 +1,20 @@
+[
+  {
+    "rating_id": "11b973a7-a628-4332-9f2b-478281a60c59",
+    "user_id": "dec9927c-396d-4d6f-b802-600dbd05b98e",
+    "package_name": "quantum-algorithm-library",
+    "rating": 5,
+    "review": "Excellent collection of quantum algorithms!",
+    "created_at": "2025-07-05T19:22:52.989276+00:00",
+    "helpful_votes": 0
+  },
+  {
+    "rating_id": "b29b4684-396c-4dd2-a36e-f3fda4870f12",
+    "user_id": "db2c9e93-d86e-4e61-a6d5-61898cabbb4b",
+    "package_name": "quantum-algorithm-library",
+    "rating": 4,
+    "review": "Great algorithms, could use more documentation",
+    "created_at": "2025-07-05T19:22:52.989932+00:00",
+    "helpful_votes": 0
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "contribution_id": "a31378c8-b9fb-458e-b79e-9e4210aaa3ef",
+    "user_id": "dec9927c-396d-4d6f-b802-600dbd05b98e",
+    "algorithm_name": "Enhanced Grover",
+    "description": "Optimized Grover's search with amplitude amplification",
+    "category": "search",
+    "tags": [
+      "grover",
+      "search",
+      "optimization"
+    ],
+    "code_repository": "https://github.com/quantum_alice/enhanced-grover",
+    "documentation_url": "",
+    "license": "MIT",
+    "created_at": "2025-07-05T19:22:52.988581+00:00",
+    "updated_at": "2025-07-05T19:22:52.988582+00:00",
+    "downloads": 0,
+    "rating": 0.0,
+    "rating_count": 0,
+    "status": "approved"
+  },
+  {
+    "contribution_id": "4414606c-f50b-4f52-ac4d-73e7e40d407d",
+    "user_id": "db2c9e93-d86e-4e61-a6d5-61898cabbb4b",
+    "algorithm_name": "Quantum Neural Network",
+    "description": "Variational quantum neural network implementation",
+    "category": "machine_learning",
+    "tags": [
+      "vqnn",
+      "machine-learning",
+      "variational"
+    ],
+    "code_repository": "https://github.com/quantum_bob/quantum-nn",
+    "documentation_url": "",
+    "license": "Apache-2.0",
+    "created_at": "2025-07-05T19:22:52.988920+00:00",
+    "updated_at": "2025-07-05T19:22:52.988920+00:00",
+    "downloads": 0,
+    "rating": 0.0,
+    "rating_count": 0,
+    "status": "pending"
+  }
+]
